@@ -9,7 +9,7 @@ function Footer() {
             <div className='container py-lg-5 py-3 my-3'>
                 <div className='row'>
                     <div className='col-lg-4 col-6 py-lg-0 py-3'>
-                        <h4>KidWiz</h4>
+                        <h4>Relationship Recharge</h4>
                         <p className='my-1'>
                             <Link className='text-dark text-decoration-none' href="/privacy-policy">
                                 Privacy Policy
@@ -30,13 +30,13 @@ function Footer() {
                         </p>
                     </div>
                     <div className='col-lg-4 col-12 py-lg-0 py-3'>
-                        <div className='d-flex flex-column justify-content-center align-items-center'>
-                            <h4>Resource</h4>
+                        <div className='d-flex flex-column justify-content-center'>
+                            <h4 className='text-start'>Contact</h4>
                             <p className='my-1'>
                                 1-(530) 325-0852
                             </p>
                             <p className='my-1'>
-                                info@kidwizlearning.com
+                                info@relationshiprecharge.ai
                             </p>
                             <div className='my-2'>
                                 <Link className='text-dark text-decoration-none' target='_blank' href="https://www.facebook.com/KidWizLearning">

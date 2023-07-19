@@ -6,15 +6,12 @@ function Welcome() {
       <div className="content pt-lg-4 pyt-1">
         <div className='container sm-hidden d-flex flex-column align-items-center justify-content-around'>
           <div>
-            <h1 className='mt-5 fw-bold'>Welcome to KidWiz!</h1>
+            <h1 className='mt-5 fw-bold'>Welcome to Relationship Recharge!</h1>
             <h4 className='sub-heading mt-2 mb-5'>
-              The AI-Powered Personalized Learning Companion that is revolutionizing early childhood education and parenting skills.
+              AI Technology, Personalized Coaching, and Virtual Therapy to Overcome Relationship Challenges and Achieve Fulfillment.
             </h4>
-            <p className='mt-3 paragraph'>
-              Welcome to KidWiz, the AI-powered personalized learning companion that's revolutionizing early childhood education. Our innovative solution combines the best elements from various educational approaches to create a truly unique and engaging learning experience for your child.
-            </p>
-            <p className='my-3 mb-5 paragraph'>
-              With KidWiz, your child will have access to a comprehensive range of topics, including specialized skills like music, languages, coding, and entrepreneurship, as well as life skills and emotional intelligence lessons. Plus, our interactive parental role-playing scenarios allow you to practice and develop your parenting skills in real-world situations. Join the KidWiz community today and give your child the gift of a lifetime of learning.
+            <p className='mt-3 mb-5 paragraph'>
+            Relationship Recharge is a revolutionary platform designed to help couples build stronger, healthier, and more fulfilling connections. Our innovative solution combines cutting-edge AI technology, personalized coaching, virtual therapy, and community support to address common relationship challenges and promote growth.
             </p>
           </div>
         </div>
@@ -25,10 +22,7 @@ function Welcome() {
               The AI-Powered Personalized Learning Companion that is revolutionizing early childhood education and parenting skills.
             </h4>
             <p className='mt-3 paragraph'>
-              Welcome to KidWiz, the AI-powered personalized learning companion that's revolutionizing early childhood education. Our innovative solution combines the best elements from various educational approaches to create a truly unique and engaging learning experience for your child.
-            </p>
-            <p className='my-3 mb-5 paragraph'>
-              With KidWiz, your child will have access to a comprehensive range of topics, including specialized skills like music, languages, coding, and entrepreneurship, as well as life skills and emotional intelligence lessons. Plus, our interactive parental role-playing scenarios allow you to practice and develop your parenting skills in real-world situations. Join the KidWiz community today and give your child the gift of a lifetime of learning.
+              Relationship Recharge is a revolutionary platform designed to help couples build stronger, healthier, and more fulfilling connections. Our innovative solution combines cutting-edge AI technology, personalized coaching, virtual therapy, and community support to address common relationship challenges and promote growth.
             </p>
           </div>
         </div>

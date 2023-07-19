@@ -1,18 +1,19 @@
 // buttons colors
 
 $button-colors: (
-  "orange": #F3A600,
-  "shocking_pink": #FF00FF,
-  "dull_pink": #AF0C86,
+  "orange": #D4573F,
+  "pink": #CA275A,
   "green": #65AC00,
-  "blue": #0097BA,
+  "blue": #16627A,
+  "yellow":#F3A600,
+  "grey": #5B7569
 );
 
 // app colors
 
-$primary: #EFF1F3;
-$secondary: #0097BA;
-$tertiary: #65AC00;
+$primary: #FFFFFF;
+$secondary: #E5923E;
+$tertiary: #CA275A;
 $hover: #F3A600;
 $black: #000;
 $white: #FFFFFF;
@@ -40,4 +41,9 @@ $white: #FFFFFF;
 @font-face {
   font-family: "poppins-medium";
   src: url(../../public/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "poppins-italic";
+  src: url(../../public/fonts/Poppins-Italic.ttf);
 }

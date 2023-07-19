@@ -5,10 +5,10 @@ function FlowerAndButterFly() {
     return (
         <div id='flower_and_butterfly' className='bg blue d-flex justify-content-center'>
             <Image
-                height={379}
-                width={638}
+                height={513}
+                width={686}
                 className='img-fluid'
-                src='/images/flower-and-butterfly.svg'
+                src='/images/flower-and-butterfly.png'
                 alt=''
             />
         </div>

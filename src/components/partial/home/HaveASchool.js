@@ -1,76 +1,23 @@
 import React from 'react'
-import Image from 'next/image'
 
 function HaveASchool() {
     return (
         <section id='have_a_school'>
-            <div className='container mt-3'>
-                <div className='d-flex flex-column align-items-center'>
-                    <div className='my-3 d-flex align-items-center justify-content-'>
-                        <Image
-                            width={196}
-                            height={170}
-                            className='img-fluid sm-hidden'
-                            src='/images/pricing-1.svg'
-                            alt=''
-                        />
-                        <div className='mx-3'>
-                            <h1 className='fw-bold heading text-center mt-4 mx-lg-0 mx-2'>
-                                Have a School?
-                            </h1>
-                            <h2 className='sub-heading text-center my-1 mt-3 sm-hidden'>
-                                Learning for Students 🧠
-                            </h2>
-                            <h2 className='sub-heading text-center my-1 mt-3 sm-visible'>
-                                Learning for K-12 🧠
-                            </h2>
-                        </div>
-                        <Image
-                            height={184}
-                            width={184}
-                            className='img-fluid sm-hidden'
-                            src='/images/pricing-2.svg'
-                            alt=''
-                        />
-                    </div>
-                    <Image
-                        width={196}
-                        height={170}
-                        className='img-fluid sm-visible'
-                        src='/images/pricing-1.svg'
-                        alt=''
-                    />
+            <div className='container mt-5'>
+                <div className='mb-3 pb-5'>
+                    <p className='mb-4 mt-5 paragraph'>
+                        Relationship Recharge offers a revolutionary approach to building stronger, healthier, and more fulfilling relationships. Our AI-powered platform provides personalized guidance and support to address your unique relationship challenges and promote growth.
+                    </p>
+                    <p className='my-4 paragraph'>
+                        Choose from our three-tiered pricing structure to find the plan that best fits your needs and budget. Whether you're looking for ongoing coaching, virtual therapy sessions, or community support, we have an option that will work for you.
+                    </p>
+                    <p className='my-4 paragraph'>
+                        Invest in the future of your relationship and sign up for Relationship Recharge today. With our innovative solution, you'll have the tools and resources you need to nurture your connection and overcome any obstacles that come your way.</p>
                 </div>
-                <div className='mb-3 pb-3'>
-                    <p className='my-4 paragraph'>
-                        At KidWiz, we're committed to making personalized learning accessible to all students. Our pricing is based on the number of students using our platform, with discounts available for schools and districts.
-                    </p>
-                    <p className='my-4 paragraph'>
-                        For schools with greater than 100 students, KidWiz costs approximately $5-7 per student per month. We offer custom pricing for larger institutions and districts, so please contact us for more information.
-                    </p>
-                    <p className='my-4 paragraph'>
-                        We also offer special pricing for teachers who want to use KidWiz in their classrooms. Please contact us to learn more about how KidWiz can help enhance your students' learning experience.
-                    </p>
-                </div>
-                <div className='mt-4 mb-5'>
-                    <h2 className='side-heading text-center'>
-                        Sign up today!
-                    </h2>
-                    <p className='paragraph text-center mt-4 pt-1'>
-                        Give the children at your school the best start in life with our innovative learning solution.
-                    </p>
-                    <button className="mt-4 mb-5 botton-btn btn bg green text-white w-100">
-                        CONTACT US FOR A CUSTOMIZED SCHOOL SOLUTION
+                <div className='mb-5'>
+                    <button className="mb-5 botton-btn btn bg green text-white w-100">
+                        CONTACT US FOR PERSONALIZED SUPPORT!
                     </button>
-                    <div className='d-flex justify-content-center'>
-                        <Image
-                            height={184}
-                            width={184}
-                            className='img-fluid sm-visible'
-                            src='/images/pricing-2.svg'
-                            alt=''
-                        />
-                    </div>
                 </div>
             </div>
         </section>

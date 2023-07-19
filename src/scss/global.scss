@@ -86,12 +86,14 @@ button {
 
 #slider-menu {
     background-color: $tertiary;
+
     .nav-link {
         font-family: 'poppins-semibold';
+
         &:hover {
             color: $tertiary !important;
         }
-        
+
         @include sm {
             color: $white !important;
             font-size: 1.5rem !important;
@@ -101,16 +103,16 @@ button {
 
 h1,
 .heading {
-    font-size: 3.25rem;
+    font-size: 3rem;
     font-family: 'poppins-bold';
 
     @include sm {
-        font-size: 2.25rem;
+        font-size: 2rem;
     }
 }
 
 .side-heading {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'poppins-bold';
 
     @include sm {
@@ -120,19 +122,19 @@ h1,
 }
 
 .paragraph {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 400;
     font-family: 'poppins-regular';
 
     @include sm {
-        font-size: .9rem;
+        font-size: .8rem;
         text-align: left !important;
         padding: 0 4vw;
     }
 }
 
 .sub-heading {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: 400;
     font-family: 'poppins-medium';
 
@@ -170,7 +172,7 @@ h1,
     color: $white;
     font-weight: 600;
     font-size: 1.3rem;
-    width: 15vw;
+    width: 20vw;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
     border-radius: 12px;
     position: relative;
@@ -205,15 +207,15 @@ h1,
     }
 
     &.orange {
-        background-color: #F3A600;
+        background-color: #D4573F;
     }
 
-    &.shocking_pink {
-        background-color: #FF00FF;
+    &.pink {
+        background-color: #CA275A;
     }
 
-    &.dull_pink {
-        background-color: #AF0C86;
+    &.grey {
+        background-color: #5B7569;
     }
 
     &.green {
@@ -221,7 +223,11 @@ h1,
     }
 
     &.blue {
-        background-color: $secondary;
+        background-color: #16627A;
+    }
+
+    &.yellow {
+        background-color: #F3A600;
     }
 
     &:hover {
@@ -252,7 +258,8 @@ h1,
     h3 {
         font-size: 1.5rem;
         max-width: 60%;
-        @include sm{
+
+        @include sm {
             max-width: 100%;
         }
     }
@@ -285,7 +292,8 @@ h1,
     }
 
     &.blue {
-        background-color: $secondary;
+        background: rgb(243, 166, 0);
+        background: linear-gradient(180deg, rgba(243, 166, 0, 1) 0%, rgba(212, 87, 63, 1) 89%, rgba(212, 87, 63, 1) 100%);
     }
 
     &.green {
@@ -377,7 +385,6 @@ h1,
     padding: 10px 1rem;
     opacity: 0;
     min-width: 45%;
-    max-width: 100%;
     animation-name: fadeIn;
     animation-duration: 2s;
     animation-iteration-count: 1;
@@ -386,10 +393,12 @@ h1,
     font-size: 0.85rem;
 
     &.bot {
+        max-width: 95%;
         justify-content: end;
     }
 
     &.user {
+        max-width: 85%;
         justify-content: start;
         background-color: #EFF1F3;
     }

@@ -14,10 +14,10 @@ function Pricing() {
             <div className='container mt-lg-5 pt-lg-5'>
                 <div>
                     <h1 className='fw-bold heading text-center mx-lg-0 mx-5 px-lg-2 px-4'>
-                        Try KidWiz for FREE!
+                        Try Relationship Recharge for FREE!
                     </h1>
                     <p className='sub-heading text-center mx-lg-0 mx-5 px-lg-0  px-5'>
-                        Unleash Learning: <span className='bold'>7-Day FREE Trial</span> of KidWiz! 🧠
+                        Transform Your Relationship: <span className='bold'>7-Day FREE Trial</span> of KidWiz! ❤️
                     </p>
                     <div className='tabs d-flex justify-content-center mt-4 mb-lg-5 mb-3 pb-lg-4'>
                         <div className='d-flex body'>
@@ -59,7 +59,7 @@ function Pricing() {
                         <div className='col-lg-4 col-12 px-lg-2 px-4'>
                             <div className='package-card my-3 py-5 orange'>
                                 <h2 className='text-center'>Basic Plan</h2>
-                                <h2 className='text-center mb-4'>${active === 'monthly'? '79' : '63'}<span className='child-span'>/mo.</span></h2>
+                                <h2 className='text-center mb-4'>${active === 'monthly' ? '79' : '63'}<span className='child-span'>/mo.</span></h2>
                                 <p className='my-3 mb-4'>This tier includes access to:</p>
                                 <div className='mt-4 pt-2 features'>
                                     <div className='d-flex align-items-start my-2'>
@@ -101,16 +101,13 @@ function Pricing() {
                             </div>
                         </div>
                         <div className='col-lg-4 col-12 mt-2 px-lg-2 px-4'>
-                            <div className='package-card mt-lg-2 mt-5 my-3 py-5 green position-relative'>
+                            <div className='package-card mt-lg-2 mt-5 my-3 py-5 red position-relative'>
                                 <div className='best-value position-absolute d-flex justify-content-center align-items-center px-lg-5 px-4 py-2'>
                                     <Image src='/icons/star.svg' height={32} width={45} alt='' />
                                     <span className='mx-2 mb-1'>BEST VALUE</span>
                                 </div>
-                                <div className='butter-fly position-absolute'>
-                                    <Image src='/images/butterfly.svg' height={175} width={175} alt='' />
-                                </div>
                                 <h2 className='text-center'>PRO PLAN</h2>
-                                <h2 className='text-center mb-4'>${active === 'monthly'? '109' : '87'}<span className='child-span'>/mo.</span></h2>
+                                <h2 className='text-center mb-4'>${active === 'monthly' ? '109' : '87'}<span className='child-span'>/mo.</span></h2>
                                 <p className='my-3 mb-4'>Everything in the Basic Plan, plus:</p>
                                 <div className='mt-4 pt-2 features'>
                                     <div className='d-flex align-items-start my-2'>
@@ -152,9 +149,9 @@ function Pricing() {
                             </div>
                         </div>
                         <div className='col-lg-4 col-12 px-lg-2 px-4'>
-                            <div className='package-card my-3 py-5 purple'>
+                            <div className='package-card my-3 py-5 orange'>
                                 <h2 className='text-center'>PREMIUM PLAN</h2>
-                                <h2 className='text-center mb-4'>${active === 'monthly'? '249' : '199'}<span className='child-span'>/mo.</span></h2>
+                                <h2 className='text-center mb-4'>${active === 'monthly' ? '249' : '199'}<span className='child-span'>/mo.</span></h2>
                                 <p className='my-3 mb-4'>This tier includes access to:</p>
                                 <div className='mt-4 pt-2 features'>
                                     <div className='d-flex align-items-start my-2'>

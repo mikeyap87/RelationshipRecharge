@@ -26,12 +26,12 @@ function CarousalSection() {
             <div className='container py-lg-4 py-2'>
                 <div className='row'>
                     <div className='col-lg-6 col-12'>
-                        <div className='h-100 d-flex flex-column justify-content-center'>
+                        <div className='h-100 d-flex flex-column '>
                             <h2 className='sm-hidden fw-bold side-heading my-3'>
-                                Don't take our word for It: Uncover the Life-Changing Impact of KidWiz on Families
+                                Don't take our word for It: Uncover the Life-Changing Impact of Relationship Recharge on Couples
                             </h2>
                             <h2 className='sm-visible fw-bold heading my-3 px-5'>
-                                Don't take our word for It: Uncover the Life-Changing Impact of KidWiz on Families
+                                Don't take our word for It: Uncover the Life-Changing Impact of Relationship Recharge on Couples
                             </h2>
                             <div className='carousal-buttons'>
                                 <button name='prev' onClick={handleSlideChange} className='fw-bold btn rounded-circle mx-1'>
@@ -57,14 +57,6 @@ function CarousalSection() {
                                 {reviews.map((item, index) => (
                                     <span className={`fw-bold ${activeSlide === index && 'active'}`}></span>
                                 ))}
-                            </div>
-                            <div className='flower my-4'>
-                                <Image
-                                    height={104}
-                                    width={82}
-                                    src='/images/blue-flower.svg'
-                                    alt=''
-                                />
                             </div>
                         </div>
                     </div>

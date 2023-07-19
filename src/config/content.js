@@ -1,149 +1,157 @@
 export const how_it_works = [
     {
         title:
-            "Step 1: Sign Up and Create Your Child's Profile",
-        desc: "Begin by signing up for a KidWiz account and creating a profile for your child. Fill in some basic information, such as your child's name, age, interests, and any prior educational experiences. This information will help our AI-powered companion to understand your child's unique needs and tailor their learning experience accordingly.",
-        img: '/images/how-it-works-1.png'
+            "1. Sign up and create your profile on Relationship Recharge, providing information about your relationship history and current challenges",
+        desc: "Creating your profile is easy and quick, and allows Relationship Recharge to personalize your experience and provide guidance that is tailored to your specific needs.",
+        img: "images/works/work-1.png"
     },
     {
         title:
-            "Step 2: Complete the Initial Assessment",
-        desc: "To create a personalized learning pathway for your child, have them complete an initial assessment designed by our team of educators and AI experts. This assessment will evaluate your child's current knowledge, skills, and learning preferences, allowing our AI companion to develop a customized curriculum just for them.",
-        img: '/images/How-It-Works-2.png'
+        "2. Select your focus topics from our comprehensive list of relationship categories, allowing you to address specific challenges relevant to your relationship",
+        desc: "Our comprehensive list of relationship categories covers a wide range of topics, from communication and conflict resolution to intimacy and trust, so you can select the areas that are most relevant to your relationship and receive personalized guidance.",
+        img: "images/works/work-2.png"
     },
     {
         title:
-            "Step 3: Begin Your Child's Personalized Learning Journey",
-        desc: "With the initial assessment complete, your child can start exploring their personalized learning pathway. The AI companion will guide them through engaging lessons, activities, and games tailored to their unique needs, interests, and learning preferences.",
-        img: '/images/How-It-Works-3.png'
+        "3. Receive personalized guidance and advice through AI-powered algorithms, real-world scenario roleplay, and progress tracking",
+        desc: "Our AI-powered algorithms provide personalized guidance based on your unique relationship history and current challenges, while real-world scenario roleplay helps you practice and improve your communication and problem-solving skills.",
+        img: "images/works/work-3.png"
     },
     {
         title:
-            "Step 4: Monitor Your Child's Progress",
-        desc: "As your child progresses through their learning journey, you'll receive real-time updates and reports on their achievements and areas for improvement. Our AI companion continuously assesses your child's performance, adjusting their learning experience to ensure they remain engaged, challenged, and motivated.",
-        img: '/images/How-It-Works-4.png'
+        "4. Participate in virtual couples therapy sessions with licensed therapists and join our thriving community for additional support and advice",
+        desc: " Our virtual couples therapy sessions allow you to work through your relationship challenges with the help of licensed therapists, while our community of like-minded couples provides a supportive space to connect and receive additional guidance and advice.",
+        img: "images/works/work-4.png"
     },
     {
         title:
-            "Step 5: Access Parent Support and Resources",
-        desc: "KidWiz offers guidance and resources for parents and caregivers to help support your child's learning journey. Explore our library of articles, tips, and expert advice on how to effectively nurture your child's growth and development.",
-        img: '/images/How-It-Works-5.png'
-    },
-    {
-        title:
-            "Step 6: Collaborate with Certified Early Childhood Educators",
-        desc: "One-on-one virtual sessions with certified early childhood educators. These sessions provide an opportunity for you and your child to discuss their progress, set new goals, and receive personalized guidance and support.",
-        img: '/images/How-It-Works-6.png'
-    },
-    {
-        title:
-            "Step 7: Continuous Adaptation and Growth",
-        desc: "As your child advances, KidWiz's AI-powered companion continues to evolve and adapt to their ever-changing needs and interests. This ensures that your child receives a truly personalized and effective learning experience throughout their early education journey.",
-        img: '/images/How-It-Works-7.png'
+        "5. Continuously monitor your progress and adapt your focus areas as needed, ensuring you stay on track toward a healthier, happier relationship",
+        desc: "Our platform allows you to track your progress and receive regular check-ins to ensure you are staying on track toward your goals, and to adjust your focus areas as needed to continue making progress toward a stronger, more fulfilling relationship.",
+        img: "images/works/work-5.png"
     },
 ];
 
 export const early_education = [
     {
-        title: "Customized Learning Pathways",
-        img: '/images/Childs-Early-Education-1.png',
-        desc: "KidWiz's AI-powered companion creates a personalized learning pathway for your child, adapting the curriculum and activities to their individual needs and interests. This tailor-made education ensures a more effective and enjoyable learning experience."
+      title: "Personalized Relationship Coaching",
+      img:"/images/choose/heart-1.png",
+      desc: "Our expert relationship coaches guide you through customized coaching sessions tailored to your specific needs and relationship history.",
     },
     {
-        title: "Real-Time Assessment and Adaptation",
-        img: '/images/Childs-Early-Education-2.png',
-        desc: "Our AI companion continuously monitors your child's progress, providing instant feedback and adjusting the learning experience accordingly. This helps keep your child challenged, engaged, and motivated throughout their educational journey."
+        title: "AI-Powered Relationship Guidance",
+        img:"/images/choose/heart-2.png",
+        desc: "Our innovative AI algorithms analyze user data and relationship patterns to provide insightful, personalized advice, helping you navigate the complexities of your relationship.",
     },
     {
-        title: "Flexibility and Accessibility",
-        img: '/images/Childs-Early-Education-3.png',
-        desc: "KidWiz's AI-Powered Personalized Learning Companion allows your child to learn at their own pace, anytime, anywhere. This flexibility is a significant advantage over traditional early childhood education programs that demand fixed schedules and physical attendance."
+        title: "Real-World Scenario Roleplay",
+        img:"/images/choose/heart-3.png",
+        desc: "The AI presents you with real-world scenarios to roleplay, allowing you to practice handling relationship situations. You'll receive a score and feedback to help you track your improvement over time.",
     },
     {
-        title: "Comprehensive Support for Families",
-        img: '/images/Childs-Early-Education-4.png',
-        desc: "We offer guidance and resources for parents and caregivers, ensuring you have the tools and knowledge needed to effectively support your child's development. This comprehensive support sets us apart from traditional early childhood education methods."
+        title: "Progress Tracking",
+        img:"/images/choose/heart-4.png",
+        desc: "Relationship Recharge continually asks you questions on a daily, weekly, or monthly basis to monitor your progress and ensure you're staying on track toward a better relationship.",
     },
     {
-        title: "Promotes Independence and Self-Motivation",
-        img: '/images/Childs-Early-Education-5.png',
-        desc: "KidWiz's AI companion fosters a sense of independence and self-motivation by adapting to your child's learning preferences and providing personalized guidance. Empower your child to take ownership of their education, a crucial factor in lifelong learning and success."
+        title: "Customizable Conflict Resolution",
+        img:"/images/choose/heart-5.png",
+        desc: "Choose from a range of common relationship stressors and conflict topics, allowing you to focus on areas that are most relevant to your relationship.",
     },
     {
-        title: "Affordable and Scalable",
-        img: '/images/Childs-Early-Education-6.png',
-        desc: "Our AI-Powered Personalized Learning Companion is a cost-effective and accessible solution for families from diverse backgrounds. Say goodbye to expensive tuition fees and lengthy waiting lists – KidWiz brings high-quality education to everyone."
+        title: "Relationship Assessment Tools",
+        img:"/images/choose/heart-6.png",
+        desc: "Take quizzes and assessments to identify the strengths and areas for improvement in your relationship, and receive recommendations for growth and development.",
     },
     {
-        title: "Future-Proof Education",
-        img: '/images/Childs-Early-Education-7.png',
-        desc: "As the world evolves, KidWiz's AI-powered companion continually adapts to new educational insights and best practices, ensuring your child's early education remains relevant and effective."
+        title: "Virtual Couples Therapy",
+        img:"/images/choose/heart-7.png",
+        desc: "Connect with licensed therapists for virtual therapy sessions, designed to help you and your partner work through relationship challenges in a safe and supportive environment.",
     },
     {
-        title: "Limitless Growth Potential",
-        img: '/images/Childs-Early-Education-8.png',
-        desc: "With KidWiz, the possibilities for your child's growth and development are endless. Our AI companion continues to provide personalized learning experiences that cater to their ever-changing needs and interests."
-    }
+        title: "Community Support",
+        img:"/images/choose/heart-8.png",
+      desc: "Join our thriving community where you can connect with other couples, share experiences, and receive advice and support from both peers and professionals.",
+    },
 ]
 
 export const faqs = [
     {
         key: '1',
-        label: 'What age group is KidWiz designed for?',
+        label: 'What is Relationship Recharge?',
         children: (
             <p>
-                KidWiz is designed for children ages 5 to 12 years old. Our AI-powered personalized learning companion adapts to your child's unique needs and interests, ensuring a suitable and engaging learning experience for children within this age range.
+                Relationship Recharge is an innovative platform that offers AI-powered
+                relationship guidance, expert coaching, and community support to help
+                couples strengthen their connections and overcome challenges. Our
+                platform allows couples to access personalized advice, virtual therapy
+                sessions, and various tools to enhance their relationships.
             </p>
         )
     },
     {
         key: '2',
-        label: 'How does the AI-Powered Personalized Learning Companion work?',
+        label: ' How does the 7-day free trial work?',
         children: (
             <p>
-                Our AI-powered learning companion uses advanced algorithms and machine learning techniques to analyze your child's initial assessment, preferences, and ongoing progress. It then creates a personalized learning pathway, adjusting the curriculum, activities, and challenges in real-time to ensure your child remains engaged, motivated, and challenged throughout their learning journey.
+                With each of our pricing plans, we offer a 7-day free trial that
+                allows you to explore the features and benefits of Relationship
+                Recharge. You can try any of the plans and switch between them during
+                the trial period. After 7 days, you will be charged based on the plan
+                you've selected, and you can continue using the platform without any
+                interruption.
             </p>
         )
     },
     {
         key: '3',
-        label: 'What subjects and skills does KidWiz cover?',
+        label: 'Can I switch between plans?',
         children: (
             <p>
-                KidWiz covers a wide range of subjects and skills, including literacy, numeracy, science, arts, social and emotional learning, problem-solving, critical thinking, and creativity. Our goal is to provide a comprehensive and well-rounded early education experience that nurtures the whole child.
+                Yes, you can switch between plans at any time. If you decide to
+                upgrade or downgrade your plan, the changes will take effect at the
+                beginning of your next billing cycle.
             </p>
         )
     },
     {
         key: '4',
-        label: 'Can I use KidWiz alongside other early childhood education programs?',
+        label: 'How does the AI-powered guidance work?',
         children: (
             <p>
-                Absolutely! KidWiz is designed to complement and enhance other early childhood education programs, such as Montessori, Reggio Emilia, or Waldorf. Our AI-powered personalized learning companion can fill in gaps, reinforce concepts, and provide additional support and enrichment to ensure a well-rounded learning experience.
+                Our AI algorithms analyze your relationship history, communication
+                patterns, and user data to provide tailored insights and advice. This
+                helps you understand your relationship dynamics better and offers
+                personalized recommendations for improvement.
             </p>
         )
     },
     {
         key: '5',
-        label: 'Is KidWiz compatible with different devices?',
+        label: 'Are virtual therapy sessions secure and confidential?',
         children: (
             <p>
-                Yes, KidWiz is designed to be compatible with a wide range of devices, including tablets, smartphones, and desktop computers. This allows your child to access their personalized learning experience whenever and wherever they choose.
+                Yes, our virtual couples therapy sessions are conducted by licensed
+                therapists and follow strict confidentiality guidelines. We prioritize
+                your privacy and ensure that your sessions are secure and
+                confidential.
             </p>
         )
     },
     {
         key: '6',
-        label: 'How do I choose the right subscription plan for my family?',
+        label: 'How do I choose focus topics for my relationship?',
         children: (
             <p>
-                KidWiz offers three subscription plans – Basic, Premium, and Elite – to cater to different needs and budgets. Each plan provides access to our AI-Powered Personalized Learning Companion and a range of additional features, such as virtual sessions with certified early childhood educators, dedicated parent support, and exclusive content. Please refer to our Pricing section for a detailed comparison of our plans to help you choose the best option for your family.
+                Our platform offers a range of topics that address common relationship
+                conflicts and stressors. Once you've identified your areas of concern,
+                you can select focus topics from our list to work on and receive
+                personalized guidance related to those topics.
             </p>
         )
     },
     {
         key: '7',
-        label: 'How do I cancel or change my subscription plan?',
+        label: "Can I use Relationship Recharge if I'm single?",
         children: (
             <p>
                 You can cancel or change your subscription plan at any time through your KidWiz account settings. If you have any questions or need assistance, please contact our customer support team, and they will be happy to help.
@@ -152,19 +160,37 @@ export const faqs = [
     },
     {
         key: '8',
-        label: "Is my child's data safe with KidWiz?",
+        label: "What payment methods do you accept?",
         children: (
             <p>
-                At KidWiz, we take your child's privacy and security very seriously. We implement industry-standard security measures to protect your child's data, and we never share your personal information with third parties without your consent. For more information, please refer to our Privacy Policy.
+                We accept all major credit cards, including Visa, Mastercard, American
+                Express, and Discover. Your payment information is securely processed
+                and encrypted to ensure your data is safe.
             </p>
         )
     },
     {
         key: '9',
-        label: "How can I get in touch with KidWiz for additional support or questions?",
+        label: "How do I cancel my subscription?",
         children: (
             <p>
-                If you have any questions or need assistance, please feel free to reach out to our customer support team via email or our contact form. We are here to help and ensure that you have the best possible experience with KidWiz.
+                You can cancel your subscription at any time by going to your account
+                settings and selecting "Cancel Subscription." Please note that
+                cancellation will take effect at the end of your current billing
+                cycle, and you will not be charged for the following month.
+            </p>
+        )
+    },
+    {
+        key: '10',
+        label: "Can I get a refund if I'm not satisfied with the platform?",
+        children: (
+            <p>
+                We are committed to providing the best possible experience for our
+                users. If you are not satisfied with Relationship Recharge, please
+                contact our customer support team within 30 days of your purchase, and
+                we will work with you to address your concerns or provide a refund if
+                necessary.
             </p>
         )
     },
@@ -172,33 +198,33 @@ export const faqs = [
 
 export const reviews = [
     {
-        title: 'A Game-Changer for Our Family!',
-        name: "Sarah K., New York",
-        desc: "KidWiz has been a game-changer for our family! My daughter loves her personalized learning plan, and I've seen a significant improvement in her engagement and motivation to learn. The AI companion adapts to her unique needs, and I couldn't be happier with the results. KidWiz is the future of early childhood education!"
+        title: 'Transformed Communication!',
+        name: "Sarah and James",
+        desc: "Our communication used to be a huge hurdle in our relationship, but Relationship Recharge helped us develop better listening and expressing skills. The AI-powered guidance was a game-changer for us, and we've never been more in sync as a couple. Thank you, Relationship Recharge!"
     },
     {
-        title: 'Flexible and Innovative Early Education Solution',
-        name: "Michael J., San Francisco",
-        desc: "As a busy working parent, I was searching for a flexible and innovative early education solution for my son. KidWiz exceeded my expectations! The AI-Powered Personalized Learning Companion allows my son to learn at his own pace, and the real-time progress monitoring helps me stay involved in his development. I highly recommend KidWiz to any parent looking for an effective and adaptive learning solution."
+        title: 'Rebuilt Trust and Strengthened Bond',
+        name: "Stephanie and Mark",
+        desc: "We were struggling with trust issues after a rough patch in our relationship. Relationship Recharge provided us with a safe and supportive environment to work through our problems. The virtual therapy sessions were incredibly helpful, and we've successfully rebuilt our trust and grown even stronger."
     },
     {
-        title: 'A Breath of Fresh Air for Our Family',
-        name: "Laura M., Chicago",
-        desc: "KidWiz has been a breath of fresh air for our family. We tried different early education approaches for our twin daughters, but nothing seemed to fit their unique learning styles. KidWiz's AI companion created personalized learning pathways for both of them, catering to their individual needs and interests. We've seen tremendous growth and development in our girls, and we couldn't be more grateful!"
+        title: 'Enhanced Work-Life Balance',
+        name: "Anna and Tom",
+        desc: "Balancing our busy lives and spending quality time together was always a challenge for us. Relationship Recharge helped us prioritize our relationship and create a healthy work-life balance. The personalized advice and progress tracking made it easy for us to stay on track and improve our connection."
     },
     {
-        title: 'Proven Value in an AI-Powered Learning Platform',
-        name: "Daniel S., Austin",
-        desc: "I was skeptical about using an AI-powered learning platform for my son's early education, but KidWiz has proven to be an invaluable resource. The continuous assessment and adaptation keep my son engaged and challenged, and the parent support resources have given me the confidence to guide his learning journey effectively. KidWiz has transformed our approach to early childhood education."
+        title: 'Unified Parenting Approach',
+        name: "Emily and John",
+        desc: "After the birth of our first child, we faced difficulties agreeing on parenting styles. Relationship Recharge guided us through this new phase of our lives and helped us find common ground in our approach to parenting. We're now a happier, more united family."
     },
     {
-        title: "Perfect Solution for Our Family's Diverse Educational Needs",
-        name: "Olivia R., Miami",
-        desc: "KidWiz is the perfect solution for our family's diverse educational needs. My daughter enjoys the personalized lessons, and I love the convenience and flexibility it provides. The AI companion ensures her education remains relevant and effective, and I feel confident that she's receiving the best possible start in life. Thank you, KidWiz!"
+        title: "Financial Harmony and Security",
+        name: "Laura and Peter",
+        desc: "Differing financial priorities were causing stress in our relationship. Relationship Recharge's AI-driven insights helped us understand each other's perspectives and develop a mutual financial plan. We now feel more secure in our future together."
     },
     {
-        title: 'Empowering Self-Motivation and Independence',
-        name: "Ethan W., Seattle",
-        desc: "Since introducing KidWiz to my child's early education routine, I've seen a significant improvement in his self-motivation and independence. The personalized guidance from the AI companion empowers him to take ownership of his learning experience, and I can already see the long-term benefits this will have on his academic journey. KidWiz is an innovative and effective learning solution that I can't recommend highly enough."
+        title: 'Rediscovered Intimacy and Connection',
+        name: "Jessica and Daniel",
+        desc: "We struggled with intimacy issues and felt disconnected from each other. Relationship Recharge's tailored coaching and support helped us address our concerns and rekindle our emotional and physical connection. Our relationship has never been better!"
     }
 ]

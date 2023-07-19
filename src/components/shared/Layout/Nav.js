@@ -16,7 +16,7 @@ function Nav() {
                             width={221}
                             height={83}
                             className='img-fluid'
-                            src='/images/logo.png'
+                            src='/images/logo.svg'
                             alt=''
                         />
                     </Link>

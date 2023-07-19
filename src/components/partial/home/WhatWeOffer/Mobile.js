@@ -4,19 +4,24 @@ import Link from 'next/link'
 
 const slides = [
     {
-        title: "Sparking Curiosity and Creativity with KidWiz's Interactive Education.",
+        title: "Revolutionary Relationship Help for Modern Couples.",
         desc: "At KidWiz, we believe that every child is unique and deserves an education that caters to their individual strengths and interests. That's why we offer a comprehensive range of topics that go beyond the traditional classroom subjects. Our interactive and engaging lessons are designed to spark curiosity, foster creativity, and develop critical thinking skills in children ages 5-12.",
         img: '/images/what-we-offer-1.svg',
     },
     {
-        title: "Role-Playing Scenarios for Parents.",
+        title: "Effective Tools to Improve Communication and Build Trust",
         desc: "In addition to our standard curriculum, we also offer a unique feature that sets us apart from other educational platforms: parental role-playing scenarios. This innovative tool allows parents to practice real-life scenarios with their children, teaching them valuable life skills such as conflict resolution, decision-making, and communication. By practicing these scenarios in a safe and controlled environment, children are better equipped to handle challenging situations they may encounter in the real world.",
         img: '/images/what-we-offer-2.svg',
     },
     {
-        title: "Beyond the Basics: Specialized Topics at KidWiz",
-        desc: "We also offer a range of specialized topics, including music, languages, coding, and entrepreneurship, that equip children with the skills and knowledge they need to succeed in the digital age. Our life skills lessons prepare children for the real world, teaching them practical skills like time management, financial literacy, and decision-making. And our emotional intelligence and critical thinking lessons help children develop analytical and problem-solving skills, as well as empathy and self-awareness.",
+        title: "Guidance for Building Intimacy and Overcoming Financial Stress",
+        desc: "We understand that intimacy and financial stress can be major sources of conflict in relationships. That's why we offer guidance and support to help couples navigate these issues and build a more fulfilling, intimate relationship.",
         img: '/images/what-we-offer-3.svg',
+    },
+    {
+        title: "Expert Guidance for Navigating Family Dynamics and Personal Growth",
+        desc: "At Relationship Recharge, we believe that personal growth and family dynamics play a critical role in building strong relationships. That's why we offer expert guidance to help couples navigate these challenges and build a stronger, more fulfilling relationship.",
+        img: '/images/what-we-offer-4.svg',
     },
 ]
 
@@ -29,7 +34,7 @@ function WhatWeOffer() {
                         What We Offer
                     </h1>
                     <p className='sub-heading'>
-                        Education that Goes Beyond the Traditional Classroom
+                        Navigating the Complexities of Relationships
                     </p>
                 </div>
                 <Slider slides={slides} />
