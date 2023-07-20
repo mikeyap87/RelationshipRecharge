@@ -2,8 +2,12 @@
 @import './responsive.scss';
 
 
-html, body {
+body {
     overflow-x: hidden !important;
+}
+
+#home{
+    overflow-x: hidden;
 }
 
 #slider-menu {

@@ -15,54 +15,36 @@ function PreLaunch() {
                     data: {
                         type: 'profile',
                         attributes: {
-                            location: {
-                                address1: '89 E 42nd St',
-                                address2: '1st floor',
-                                city: 'New York',
-                                country: 'United States',
-                                latitude: 'string',
-                                longitude: 'string',
-                                region: 'NY',
-                                zip: '10017',
-                                timezone: 'America/New_York'
-                            },
-                            properties: { pseudonym: 'Dr. Octopus' },
                             meta: { patch_properties: { append: { skus: ['92538', '40571'] } } },
-                            email: 'sarah.mason@klaviyo-demo.com',
-                            phone_number: '+15005550006',
-                            external_id: '63f64a2b-c6bf-40c7-b81f-bed08162edbe',
-                            anonymous_id: '01GDDKASAP8TKDDA2GRZDSVP4H',
-                            first_name: 'Sarah',
-                            last_name: 'Mason',
-                            organization: 'Klaviyo',
-                            title: 'Engineer',
-                            image: 'https://images.pexels.com/photos/3760854/pexels-photo-3760854.jpeg'
+                            email: values.email,
+                            first_name: values.full_name
                         },
                         id: '01GDDKASAP8TKDDA2GRZDSVP4H'
                     }
                 },
-                custom_source: 'Homepage footer signup form'
+                custom_source: 'Prelaunch Sign up!'
             },
-            relationships: { list: { data: { type: 'list', id: 'Y6nRLr' } } }
+            relationships: { list: { data: { type: 'list', id: 'W8gFnX' } } }
         }
-    const options = {
-        method: 'POST',
-        headers: { revision: '2023-07-15', 'content-type': 'application/json' },
-        body: JSON.stringify({ data })
-    };
-    fetch(`https://a.klaviyo.com/client/subscriptions/?company_id=UfeDay`, options)
-        .then(() => {
-            setLoading(false)
-            api.success({
-                message: 'Success!',
-                description:
-                    "You're on board! Thank you for signing up for our pre-release email updates. We can't wait to share exciting news about our product with you. Stay tuned.",
-            });
-        })
-        .catch(() => {
-            setLoading(false)
-        })
-}
+        const options = {
+            method: 'POST',
+            headers: { revision: '2023-07-15', 'content-type': 'application/json' },
+            body: JSON.stringify({ data })
+        };
+        // Send data to Klaviyo API using Axios GET request with base64-encoded JSON data as query parameter
+        fetch(`https://a.klaviyo.com/client/subscriptions/?company_id=Ui46UJ`, options)
+            .then(() => {
+                setLoading(false)
+                api.success({
+                    message: 'Success!',
+                    description:
+                        "You're on board! Thank you for signing up for our pre-release email updates. We can't wait to share exciting news about our product with you. Stay tuned.",
+                });
+            })
+            .catch(() => {
+                setLoading(false)
+            })
+    }
 
 return (
     <>
