@@ -2,7 +2,7 @@
 @import './responsive.scss';
 
 
-html, body {
+body {
     overflow-x: hidden !important;
 }
 
@@ -10,6 +10,10 @@ html, body {
     li {
         font-size: 1.1rem;
     }
+}
+
+#home{
+    overflow-x: clip;
 }
 
 

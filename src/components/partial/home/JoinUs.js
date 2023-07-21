@@ -73,10 +73,16 @@ function JoinUs() {
                             <Form onFinish={handleSubmit}>
                                 <div className='content d-flex flex-column align-items-center my-3'>
                                     <Form.Item
-                                        rules={[{
-                                            required: true,
-                                            type: 'email'
-                                        }]}
+                                        rules={
+                                            [{
+                                                required: true,
+                                                message: 'Email is a required field!',
+                                            },
+                                            {
+                                                type: 'email',
+                                                message: 'Email is not valid!',
+                                            }
+                                            ]}
                                         className='d-flex justify-content-center w-100'
                                         name={'email'}
                                     >

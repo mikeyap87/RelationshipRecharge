@@ -11,48 +11,66 @@ function WhatWeCover() {
           <CollapsableButton
             title='Communication'
             color='yellow'
-            content='Explore the world and learn about different cultures, societies, and historical events that shape our world.'
+            content='Issues related to effective communication including
+            misunderstandings, differences in communication styles, and
+            difficulty expressing emotions or having difficult
+            conversations.'
           />
           <CollapsableButton
             title='Trust'
             color='blue'
-            content="Prepare your child for the real world with lessons on practical life skills, such as time management, financial literacy, and decision-making."
+            content="Problems related to trust such as infidelity, lying, and
+            broken promises. These issues can cause suspicion, jealousy,
+            and a lack of dependability."
           />
         </div>
         <div className='d-flex flex-wrap mt-lg-4 justify-content-center'>
           <CollapsableButton
             title='Family and Friends'
             color='orange'
-            content="Help your child build a strong foundation in mathematics through fun and interactive lessons that cater to their learning style."
+            content="Issues related to family and friends such as differences in
+            parenting styles, interference from family and friends, and
+            disagreements over values or beliefs."
           />
           <CollapsableButton
             title='Intimacy'
             color='pink'
-            content="Foster a love of language and literature with lessons on reading, writing, and grammar that help your child express themselves with confidence."
+            content="Issues related to physical and emotional intimacy such as lack
+            of physical affection, emotional disconnection, and sexual
+            dissatisfaction."
           />
           <CollapsableButton
             title='Personal Growth'
             color='grey'
-            content="Develop your child's analytical and problem-solving skills through lessons that encourage them to think critically and make informed decisions."
+            content="Issues related to personal growth such as difficulty accepting
+            personal flaws or mistakes, feeling stuck or unfulfilled in
+            personal life, and changes in personal identity or values over
+            time."
           />
         </div>
         <div className='d-flex flex-wrap mt-lg-4 justify-content-center'>
           <CollapsableButton
             title='Commitment'
             color='blue'
-            content='Foster a love of nature and a sense of responsibility for our planet with lessons on environmental issues and conservation.'
+            content='Problems related to commitment such as fear of commitment or
+            abandonment, differences in level of commitment, and unequal
+            distribution of power in the relationship.'
           />
           <CollapsableButton
             title='Money'
             color='orange'
-            content='Help your child become a global citizen by learning a new language and understanding different cultures and ways of thinking.'
+            content='Problems related to finances such as disagreements over
+            spending habits or priorities, financial infidelity, and debt
+            or financial stress.'
           />
         </div>
         <div className='d-flex flex-wrap mt-lg-4 justify-content-center'>
           <CollapsableButton
             title='Career or Personal Growth Issues'
             color='yellow'
-            content=' Introduce your child to the wonders of the natural world through hands-on experiments and engaging content that sparks their curiosity.'
+            content=' Problems related to work-life balance, differences in career
+            aspirations or goals, personal growth and development goals,
+            and burnout or stress from work or personal life.'
           />
         </div>
       </div>
