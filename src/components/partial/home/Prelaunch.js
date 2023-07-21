@@ -15,41 +15,23 @@ function PreLaunch() {
                     data: {
                         type: 'profile',
                         attributes: {
-                            location: {
-                                address1: '89 E 42nd St',
-                                address2: '1st floor',
-                                city: 'New York',
-                                country: 'United States',
-                                latitude: 'string',
-                                longitude: 'string',
-                                region: 'NY',
-                                zip: '10017',
-                                timezone: 'America/New_York'
-                            },
-                            properties: { pseudonym: 'Dr. Octopus' },
                             meta: { patch_properties: { append: { skus: ['92538', '40571'] } } },
-                            email: 'sarah.mason@klaviyo-demo.com',
-                            phone_number: '+15005550006',
-                            external_id: '63f64a2b-c6bf-40c7-b81f-bed08162edbe',
-                            anonymous_id: '01GDDKASAP8TKDDA2GRZDSVP4H',
-                            first_name: 'Sarah',
-                            last_name: 'Mason',
-                            organization: 'Klaviyo',
-                            title: 'Engineer',
-                            image: 'https://images.pexels.com/photos/3760854/pexels-photo-3760854.jpeg'
+                            email: values.email,
+                            first_name: values.full_name
                         },
                         id: '01GDDKASAP8TKDDA2GRZDSVP4H'
                     }
                 },
-                custom_source: 'Homepage footer signup form'
+                custom_source: 'Prelaunch Sign up!'
             },
-            relationships: { list: { data: { type: 'list', id: 'Y6nRLr' } } }
+            relationships: { list: { data: { type: 'list', id: 'TkiPme' } } }
         }
         const options = {
             method: 'POST',
             headers: { revision: '2023-07-15', 'content-type': 'application/json' },
             body: JSON.stringify({ data })
         };
+        // Send data to Klaviyo API using Axios GET request with base64-encoded JSON data as query parameter
         fetch(`https://a.klaviyo.com/client/subscriptions/?company_id=UfeDay`, options)
             .then(() => {
                 setLoading(false)
@@ -64,19 +46,19 @@ function PreLaunch() {
             })
     }
 
-    return (
-        <>
-            {contextHolder}
-            <section id='prelaunch' className='pt-5'>
-                <div className='container'>
-                    <h1 className='heading text-center fw-bold mx-lg-0 mx-4'>
-                        Be among the first to see <br />
-                        <span>Relationship Recharge in action</span>
-                    </h1>
-                    <p className='sub-heading text-center mx-lg-0 mx-4 mb-lg-0 mb-2'>Transform Your Relationship ❤️</p>
-                    <div className='d-flex justify-content-center pt-lg-5 pt-0'>
-                        <div className='form shadow w-70 p-3 py-5 d-flex flex-column align-items-center my-5 position-relative'>
-                            {/* <div className="img position-absolute top-0 translate-middle">
+return (
+    <>
+        {contextHolder}
+        <section id='prelaunch' className='pt-5'>
+            <div className='container'>
+                <h1 className='heading text-center fw-bold mx-lg-0 mx-4'>
+                    Be among the first to see <br />
+                    <span>Relationship Recharge in action</span>
+                </h1>
+                <p className='sub-heading text-center mx-lg-0 mx-4 mb-lg-0 mb-2'>Transform Your Relationship ❤️</p>
+                <div className='d-flex justify-content-center pt-lg-5 pt-0'>
+                    <div className='form shadow w-70 p-3 py-5 d-flex flex-column align-items-center my-5 position-relative'>
+                        {/* <div className="img position-absolute top-0 translate-middle">
                                  <Image
                                     height={182}
                                     width={182}
