@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
               Privacy Policy
             </h1>
             <p className='text-center'>
-              KidWiz takes your privacy seriously. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website, use our services, or interact with us. By using our services, you agree to the terms of this Privacy Policy.
+            Relationship Recharge takes your privacy seriously. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website, use our services, or interact with us. By using our services, you agree to the terms of this Privacy Policy.
             </p>
             <h3 className='my-2 sub-heading fw-bold'>
               Information Collection and Use
