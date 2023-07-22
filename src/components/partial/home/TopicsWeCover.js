@@ -68,7 +68,7 @@ function WhatWeCover() {
           <CollapsableButton
             title='Career or Personal Growth Issues'
             color='yellow'
-            content=' Problems related to work-life balance, differences in career
+            content='Problems related to work-life balance, differences in career
             aspirations or goals, personal growth and development goals,
             and burnout or stress from work or personal life.'
           />
