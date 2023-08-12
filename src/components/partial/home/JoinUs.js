@@ -54,11 +54,11 @@ function JoinUs() {
                     <div className='d-flex flex-column align-items-center'>
                         <div className='my-3 d-flex align-items-center'>
                             <h1 className='fw-bold heading text-center mt-4 mx-lg-0 mx-5'>
-                                Join us in igniting the Flames of Knowledge!
+                                Join us in Igniting the Flames of long-lasting relationships!
                             </h1>
                         </div>
                         <p className='paragraph my-4'>
-                            Together, let us ignite the flames of knowledge, and watch as the sparks of wisdom and creativity take flight. We invite you to join us in our quest to create a world where the next generation of innovators, dreamers, and leaders is nurtured and inspired – a world where the pursuit of knowledge knows no bounds.
+                            Our cutting-edge technology and expert guidance are designed to inspire and empower you to build meaningful relationships and discover new paths to personal growth. Join us in our quest to revolutionize the way we navigate relationships, and unlock the full potential of your love life.
                         </p>
                     </div>
                     <div className='row'>
