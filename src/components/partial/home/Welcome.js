@@ -11,7 +11,7 @@ function Welcome() {
               AI Technology, Personalized Coaching, and Virtual Therapy to Overcome Relationship Challenges and Achieve Fulfillment.
             </h4>
             <p className='mt-3 mb-5 paragraph'>
-            Relationship Recharge is a revolutionary platform designed to help couples, friends, and family build stronger, healthier, and more fulfilling connections. Our innovative solution combines cutting-edge AI technology, personalized coaching, virtual therapy, and community support to address common relationship challenges and promote growth.
+            Relationship Recharge is a revolutionary platform designed to help couples build stronger, healthier, and more fulfilling connections. Our innovative solution combines cutting-edge AI technology, personalized coaching, virtual therapy, and community support to address common relationship challenges and promote growth.
             </p>
           </div>
         </div>
@@ -22,7 +22,7 @@ function Welcome() {
               AI Technology, Personalized Coaching, and Virtual Therapy to Overcome Relationship Challenges and Achieve Fulfillment.
             </h4>
             <p className='mt-3 paragraph'>
-            Relationship Recharge is a revolutionary platform designed to help couples, friends, and family build stronger, healthier, and more fulfilling connections. Our innovative solution combines cutting-edge AI technology, personalized coaching, virtual therapy, and community support to address common relationship challenges and promote growth.
+            Relationship Recharge is a revolutionary platform designed to help couples build stronger, healthier, and more fulfilling connections. Our innovative solution combines cutting-edge AI technology, personalized coaching, virtual therapy, and community support to address common relationship challenges and promote growth.
             </p>
           </div>
         </div>
