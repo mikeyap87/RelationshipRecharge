@@ -9,7 +9,7 @@ const slides = [
         img: '/images/what-we-offer-1.svg',
     },
     {
-        title: "Effective Tools to Improve Communication and Build Trust..",
+        title: "Effective Tools to Improve Communication and Build Trust.",
         desc: "Our platform is designed to help couples improve communication and build trust. Whether you're struggling with misunderstandings, poor listening skills, or broken trust, Relationship Recharge provides the tools and resources you need to work through your issues and build a stronger connection with your partner.",
         img: '/images/what-we-offer-2.svg',
     },
