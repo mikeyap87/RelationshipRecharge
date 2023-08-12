@@ -17,12 +17,12 @@ function Welcome() {
         </div>
         <div className='sm-visible pt-4'>
           <div className='container'>
-            <h1 className='mt-5 fw-bold mx-5'>Welcome to KidWiz!</h1>
+            <h1 className='mt-5 fw-bold mx-5'>Welcome to Relationship Recharge!</h1>
             <h4 className='sub-heading mt-2 mb-5 mx-4'>
-              The AI-Powered Personalized Learning Companion that is revolutionizing early childhood education and parenting skills.
+              AI Technology, Personalized Coaching, and Virtual Therapy to Overcome Relationship Challenges and Achieve Fulfillment.
             </h4>
             <p className='mt-3 paragraph'>
-              Relationship Recharge is a revolutionary platform designed to help couples build stronger, healthier, and more fulfilling connections. Our innovative solution combines cutting-edge AI technology, personalized coaching, virtual therapy, and community support to address common relationship challenges and promote growth.
+            Relationship Recharge is a revolutionary platform designed to help couples build stronger, healthier, and more fulfilling connections. Our innovative solution combines cutting-edge AI technology, personalized coaching, virtual therapy, and community support to address common relationship challenges and promote growth.
             </p>
           </div>
         </div>
