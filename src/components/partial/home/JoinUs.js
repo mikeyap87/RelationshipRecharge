@@ -54,7 +54,7 @@ function JoinUs() {
                     <div className='d-flex flex-column align-items-center'>
                         <div className='my-3 d-flex align-items-center'>
                             <h1 className='fw-bold heading text-center mt-4 mx-lg-0 mx-5'>
-                                Join us in Igniting the Flames of long-lasting relationships!
+                                Join us in Igniting the Flames of Long-lasting Relationships!
                             </h1>
                         </div>
                         <p className='paragraph my-4'>
