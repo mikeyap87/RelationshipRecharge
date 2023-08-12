@@ -9,17 +9,17 @@ const slides = [
         img: '/images/what-we-offer-1.svg',
     },
     {
-        title: "Effective Tools to Improve Communication and Build Trust",
+        title: "Effective Tools to Improve Communication and Build Trust..",
         desc: "Our platform is designed to help couples improve communication and build trust. Whether you're struggling with misunderstandings, poor listening skills, or broken trust, Relationship Recharge provides the tools and resources you need to work through your issues and build a stronger connection with your partner.",
         img: '/images/what-we-offer-2.svg',
     },
     {
-        title: "Guidance for Building Intimacy and Overcoming Financial Stress",
+        title: "Guidance for Building Intimacy and Overcoming Financial Stress.",
         desc: "We understand that intimacy and financial stress can be major sources of conflict in relationships. That's why we offer guidance and support to help couples navigate these issues and build a more fulfilling, intimate relationship.",
         img: '/images/what-we-offer-3.svg',
     },
     {
-        title: "Expert Guidance for Navigating Family Dynamics and Personal Growth",
+        title: "Expert Guidance for Navigating Family Dynamics and Personal Growth.",
         desc: "At Relationship Recharge, we believe that personal growth and family dynamics play a critical role in building strong relationships. That's why we offer expert guidance to help couples navigate these challenges and build a stronger, more fulfilling relationship.",
         img: '/images/what-we-offer-4.svg',
     },
