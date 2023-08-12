@@ -5,12 +5,12 @@ import Link from 'next/link'
 const slides = [
     {
         title: "Revolutionary Relationship Help for Modern Couples.",
-        desc: "At KidWiz, we believe that every child is unique and deserves an education that caters to their individual strengths and interests. That's why we offer a comprehensive range of topics that go beyond the traditional classroom subjects. Our interactive and engaging lessons are designed to spark curiosity, foster creativity, and develop critical thinking skills in children ages 5-12.",
+        desc: "Relationship Recharge offers a comprehensive range of topics that cater to the unique needs of modern couples. Our innovative platform provides a safe and supportive space for couples to explore their issues and work together to build stronger, healthier relationships.",
         img: '/images/what-we-offer-1.svg',
     },
     {
         title: "Effective Tools to Improve Communication and Build Trust",
-        desc: "In addition to our standard curriculum, we also offer a unique feature that sets us apart from other educational platforms: parental role-playing scenarios. This innovative tool allows parents to practice real-life scenarios with their children, teaching them valuable life skills such as conflict resolution, decision-making, and communication. By practicing these scenarios in a safe and controlled environment, children are better equipped to handle challenging situations they may encounter in the real world.",
+        desc: "Our platform is designed to help couples improve communication and build trust. Whether you're struggling with misunderstandings, poor listening skills, or broken trust, Relationship Recharge provides the tools and resources you need to work through your issues and build a stronger connection with your partner.",
         img: '/images/what-we-offer-2.svg',
     },
     {
