@@ -154,7 +154,7 @@ export const faqs = [
         label: "Can I use Relationship Recharge if I'm single?",
         children: (
             <p>
-                You can cancel or change your subscription plan at any time through your KidWiz account settings. If you have any questions or need assistance, please contact our customer support team, and they will be happy to help.
+                While Relationship Recharge is primarily designed for couples, single individuals can also benefit from our platform by using the AI-powered guidance and assessment tools to better understand their relationship patterns and prepare for future relationships.
             </p>
         )
     },
