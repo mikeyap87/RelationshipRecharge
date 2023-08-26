@@ -1,15 +1,13 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
   return (
     <Html lang="en">
         <Head>
           {/* Add your chatbot script here */}
-          <script
-            id="retune.so/chat"
-            src="https://retune.so/api/script/chat.js?id=11ee3bc5-3290-ca90-b060-27e1e8063720"
-            defer
-          ></script>
+          <Script id="__webwhizSdk__" chatbotId="64e9116b36efb9b9f5c7c283"
+src="https://widget.webwhiz.ai/webwhiz-sdk.js"/>
         </Head>
       <body>
         <Main />
