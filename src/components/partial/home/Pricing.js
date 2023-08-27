@@ -38,13 +38,13 @@ function Pricing() {
                                 </a>
                             </div>
                             <div className='save-upto my-3'>
-                                <Image
+                                <LazyImage
                                     className='sm-hidden'
                                     src="/images/save-upto.svg"
                                     width={150}
                                     height={49}
                                 />
-                                <Image
+                                <LazyImage
                                     className='sm-visible'
                                     src="/images/save-upto-2.svg"
                                     width={150}
@@ -64,31 +64,31 @@ function Pricing() {
                                 <div className='mt-4 pt-2 features'>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>Access to our AI-Powered Personalized Learning Companion</span>
                                     </div>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>Daily personalized lesson plans and activities</span>
                                     </div>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>Basic progress tracking</span>
                                     </div>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>Math, Science, Biology, English, Social Studies</span>
                                     </div>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>1 Child’s Profile</span>
                                     </div>
@@ -103,7 +103,7 @@ function Pricing() {
                         <div className='col-lg-4 col-12 mt-2 px-lg-2 px-4'>
                             <div className='package-card mt-lg-2 mt-5 my-3 py-5 red position-relative'>
                                 <div className='best-value position-absolute d-flex justify-content-center align-items-center px-lg-5 px-4 py-2'>
-                                    <Image src='/icons/star.svg' height={32} width={45} alt='' />
+                                    <LazyImage src='/icons/star.svg' height={32} width={45} alt='' />
                                     <span className='mx-2 mb-1'>BEST VALUE</span>
                                 </div>
                                 <h2 className='text-center'>PRO PLAN</h2>
@@ -112,31 +112,31 @@ function Pricing() {
                                 <div className='mt-4 pt-2 features'>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>Comprehensive progress tracking</span>
                                     </div>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>In-app parent support and resources</span>
                                     </div>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>Big 5 Personality Test with Specific Niche Parental Training</span>
                                     </div>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>Music, Languages, Coding, Life Skills, Money</span>
                                     </div>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>2 Children’s Profiles</span>
                                     </div>
@@ -156,31 +156,31 @@ function Pricing() {
                                 <div className='mt-4 pt-2 features'>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>Monthly one-on-one virtual sessions with a certified early childhood educator</span>
                                     </div>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>Priority access to new features and content</span>
                                     </div>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>Basic progress tracking</span>
                                     </div>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>Emotional Intelligence, Critical Thinking, Environmental Studies, Entrepreneurship</span>
                                     </div>
                                     <div className='d-flex align-items-start my-2'>
                                         <div className='w-10'>
-                                            <Image src='/images/tick.svg' alt='' height={15} width={15} />
+                                            <LazyImage src='/images/tick.svg' alt='' height={15} width={15} />
                                         </div>
                                         <span className='w-90'>3 Children’s Profiles</span>
                                     </div>

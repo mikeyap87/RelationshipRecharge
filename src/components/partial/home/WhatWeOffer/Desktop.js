@@ -27,7 +27,7 @@ function WhatWeOffer() {
                     </div>
                     <div className='col-lg-6 col-12'>
                         <div className='d-flex justify-content-center'>
-                            <Image
+                            <LazyImage
                                 width={396}
                                 height={396}
                                 className='img-fluid'
@@ -38,7 +38,7 @@ function WhatWeOffer() {
                     </div>
                     <div className='col-lg-6 col-12'>
                         <div className='h-100 d-flex justify-content-center align-items-center'>
-                            <Image
+                            <LazyImage
                                 width={688}
                                 height={459}
                                 className='img-fluid'
@@ -69,7 +69,7 @@ function WhatWeOffer() {
                     </div>
                     <div className='col-lg-6 col-12'>
                         <div className='d-flex justify-content-center align-items-center h-100'>
-                            <Image
+                            <LazyImage
                                 width={648}
                                 height={611}
                                 className='img-fluid'
@@ -80,7 +80,7 @@ function WhatWeOffer() {
                     </div>
                     <div className='col-lg-6 col-12'>
                         <div className='d-flex justify-content-center align-items-center h-100'>
-                            <Image
+                            <LazyImage
                                 width={590}
                                 height={590}
                                 className='img-fluid'
@@ -112,7 +112,7 @@ function WhatWeOffer() {
                     <Link href='#prelaunch'>
                         <button className="botton-btn px-5 py-3 btn bg green text-white px-3 fw-bold position-relative" type="submit">
                             <div className="robot position-absolute translate-middle">
-                                <Image
+                                <LazyImage
                                     width={150}
                                     height={150}
                                     className='img-fluid ml-5'

@@ -45,10 +45,14 @@ function Swipper({ slides, orientation, id }) {
                         currentClassName="img-fluid offer-img"
                     >
                         {slides.map((item, i) => (
-                            <img
+                            <LazyImage
                                 id={i}
                                 key={i}
                                 src={item.img}
+                                alt={`Slide ${i}`}
+                                width={460}
+                                height={280}
+                                loading="lazy"
                             />
                         ))}
                     </Scrollspy>

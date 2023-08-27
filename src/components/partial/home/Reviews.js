@@ -35,7 +35,7 @@ function CarousalSection() {
                             </h2>
                             <div className='carousal-buttons'>
                                 <button name='prev' onClick={handleSlideChange} className='fw-bold btn rounded-circle mx-1'>
-                                    <Image
+                                    <LazyImage
                                         height={21}
                                         width={12}
                                         name='prev'
@@ -44,7 +44,7 @@ function CarousalSection() {
                                     />
                                 </button>
                                 <button name='next' onClick={handleSlideChange} className='fw-bold btn rounded-circle mx-1'>
-                                    <Image
+                                    <LazyImage
                                         height={21}
                                         width={12}
                                         name='next'
