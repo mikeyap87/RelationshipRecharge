@@ -3,73 +3,73 @@ export const how_it_works = [
         title:
             "1. Sign up and create your profile on Relationship Recharge, providing information about your relationship history and current challenges",
         desc: "Creating your profile is easy and quick, and allows Relationship Recharge to personalize your experience and provide guidance that is tailored to your specific needs.",
-        img: "images/works/work-1.png"
+        img: "images/works/work-1.webp"
     },
     {
         title:
         "2. Select your focus topics from our comprehensive list of relationship categories, allowing you to address specific challenges relevant to your relationship",
         desc: "Our comprehensive list of relationship categories covers a wide range of topics, from communication and conflict resolution to intimacy and trust, so you can select the areas that are most relevant to your relationship and receive personalized guidance.",
-        img: "images/works/work-2.png"
+        img: "images/works/work-2.webp"
     },
     {
         title:
         "3. Receive personalized guidance and advice through AI-powered algorithms, real-world scenario roleplay, and progress tracking",
         desc: "Our AI-powered algorithms provide personalized guidance based on your unique relationship history and current challenges, while real-world scenario roleplay helps you practice and improve your communication and problem-solving skills.",
-        img: "images/works/work-3.png"
+        img: "images/works/work-3.webp"
     },
     {
         title:
         "4. Participate in virtual couples therapy sessions with licensed therapists and join our thriving community for additional support and advice",
         desc: " Our virtual couples therapy sessions allow you to work through your relationship challenges with the help of licensed therapists, while our community of like-minded couples provides a supportive space to connect and receive additional guidance and advice.",
-        img: "images/works/work-4.png"
+        img: "images/works/work-4.webp"
     },
     {
         title:
         "5. Continuously monitor your progress and adapt your focus areas as needed, ensuring you stay on track toward a healthier, happier relationship",
         desc: "Our platform allows you to track your progress and receive regular check-ins to ensure you are staying on track toward your goals, and to adjust your focus areas as needed to continue making progress toward a stronger, more fulfilling relationship.",
-        img: "images/works/work-5.png"
+        img: "images/works/work-5.webp"
     },
 ];
 
 export const early_education = [
     {
       title: "Personalized Relationship Coaching",
-      img:"/images/choose/heart-1.png",
+      img:"/images/choose/heart-1.webp",
       desc: "Our expert relationship coaches guide you through customized coaching sessions tailored to your specific needs and relationship history.",
     },
     {
         title: "AI-Powered Relationship Guidance",
-        img:"/images/choose/heart-2.png",
+        img:"/images/choose/heart-2.webp",
         desc: "Our innovative AI algorithms analyze user data and relationship patterns to provide insightful, personalized advice, helping you navigate the complexities of your relationship.",
     },
     {
         title: "Real-World Scenario Roleplay",
-        img:"/images/choose/heart-3.png",
+        img:"/images/choose/heart-3.webp",
         desc: "The AI presents you with real-world scenarios to roleplay, allowing you to practice handling relationship situations. You'll receive a score and feedback to help you track your improvement over time.",
     },
     {
         title: "Progress Tracking",
-        img:"/images/choose/heart-4.png",
+        img:"/images/choose/heart-4.webp",
         desc: "Relationship Recharge continually asks you questions on a daily, weekly, or monthly basis to monitor your progress and ensure you're staying on track toward a better relationship.",
     },
     {
         title: "Customizable Conflict Resolution",
-        img:"/images/choose/heart-5.png",
+        img:"/images/choose/heart-5.webp",
         desc: "Choose from a range of common relationship stressors and conflict topics, allowing you to focus on areas that are most relevant to your relationship.",
     },
     {
         title: "Relationship Assessment Tools",
-        img:"/images/choose/heart-6.png",
+        img:"/images/choose/heart-6.webp",
         desc: "Take quizzes and assessments to identify the strengths and areas for improvement in your relationship, and receive recommendations for growth and development.",
     },
     {
         title: "Virtual Couples Therapy",
-        img:"/images/choose/heart-7.png",
+        img:"/images/choose/heart-7.webp",
         desc: "Connect with licensed therapists for virtual therapy sessions, designed to help you and your partner work through relationship challenges in a safe and supportive environment.",
     },
     {
         title: "Community Support",
-        img:"/images/choose/heart-8.png",
+        img:"/images/choose/heart-8.webp",
       desc: "Join our thriving community where you can connect with other couples, share experiences, and receive advice and support from both peers and professionals.",
     },
 ]
