@@ -45,7 +45,7 @@ function Swipper({ slides, orientation, id }) {
                         currentClassName="img-fluid offer-img"
                     >
                         {slides.map((item, i) => (
-                            <LazyImage
+                            <Image
                                 id={i}
                                 key={i}
                                 src={item.img}

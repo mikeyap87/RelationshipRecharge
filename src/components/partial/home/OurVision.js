@@ -26,7 +26,7 @@ function OurVision() {
                     </div>
                     <div className='col-lg-6 col-12'>
                         <div className='d-flex justify-content-center'>
-                            <LazyImage
+                            <Image
                                 height={566}
                                 width={600}
                                 src='/images/our-vision-1.svg'
@@ -47,7 +47,7 @@ function OurVision() {
                             <div className='d-flex justify-content-center w-75 my-lg-4'>
                                 <div className='d-flex flex-column'>
                                     <div className='bubble-button position-relative my-3 user align-self-end two'>
-                                        <LazyImage
+                                        <Image
                                             height={55}
                                             width={55}
                                             className='position-absolute top-0 start-100 translate-middle'
@@ -59,7 +59,7 @@ function OurVision() {
                                         </span>
                                     </div>
                                     <div className='bubble-button position-relative my-3 bot align-self-start one'>
-                                        <LazyImage
+                                        <Image
                                             height={55}
                                             width={55}
                                             className='position-absolute top-0 start-0 translate-middle'
@@ -71,7 +71,7 @@ function OurVision() {
                                         </span>
                                     </div>
                                     <div className='bubble-button position-relative my-3 user align-self-end four'>
-                                        <LazyImage
+                                        <Image
                                             height={55}
                                             width={55}
                                             className='position-absolute top-0 start-100 translate-middle'
@@ -83,7 +83,7 @@ function OurVision() {
                                         </span>
                                     </div>
                                     <div className='bubble-button position-relative my-3 bot align-self-start three'>
-                                        <LazyImage
+                                        <Image
                                             height={55}
                                             width={55}
                                             className='position-absolute top-0 start-0 translate-middle'

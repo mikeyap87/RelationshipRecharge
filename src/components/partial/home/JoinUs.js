@@ -63,7 +63,7 @@ function JoinUs() {
                     </div>
                     <div className='row'>
                         <div className='col-lg-3 col-6'>
-                            <LazyImage
+                            <Image
                                 width={300}
                                 height={300}
                                 className='img-fluid'
@@ -72,7 +72,7 @@ function JoinUs() {
                             />
                         </div>
                         <div className='col-lg-3 col-6 sm-visible'>
-                            <LazyImage
+                            <Image
                                 width={300}
                                 height={300}
                                 className='img-fluid'
@@ -108,7 +108,7 @@ function JoinUs() {
                             </Form>
                         </div>
                         <div className='col-lg-3 col-12 sm-hidden'>
-                            <LazyImage
+                            <Image
                                 width={457}
                                 height={459}
                                 className='img-fluid'

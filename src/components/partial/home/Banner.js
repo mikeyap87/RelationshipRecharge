@@ -41,7 +41,7 @@ function Banner() {
                                         height={55}
                                         width={55}
                                         className='position-absolute top-0 start-0 translate-middle'
-                                        src='/images/chatbot-avatar.svg'
+                                        src='/images/chatbot-avatar.webp'
                                         alt=''
                                     />
                                     <span className='m-0'>
@@ -65,7 +65,7 @@ function Banner() {
                                         height={55}
                                         width={55}
                                         className='position-absolute top-0 start-0 translate-middle'
-                                        src='/images/chatbot-avatar.svg'
+                                        src='/images/chatbot-avatar.webp'
                                         alt=''
                                     />
                                     <span className='m-0'>

@@ -15,7 +15,7 @@ function Sunshine() {
           </div>
           <div className='col-lg-6 col-12'>
             <div className='h-100 w-100 position-relative'>
-              <LazyImage
+              <Image
                 width={651}
                 height={291}
                 className='position-absolute'
